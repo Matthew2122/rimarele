@@ -1,0 +1,2944 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 1px solid; */
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #282828;
+}
+.container1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0px 50px;
+    margin-top: -2px;
+    background-color: #f1efeb
+    
+}
+.con1left{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.con1left img{
+    /* border: 1px solid; */
+    width: 40px;
+    height: 40px;
+}
+.left{
+    display: flex;
+    color: #282828;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.left a{
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.left a h4{
+    /* border: 1px solid; */
+    font-size: 14px;
+    color: #282828;
+}
+.left a span{
+    /* border: 1px solid; */
+    font-size: 10px;
+    color: #282828;
+}
+.menuImg {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  z-index: 9999;
+  /* width: 35px; */
+  display: none;
+  cursor: pointer;
+  /* visibility: hidden; */
+}
+input[type="checkbox"] {
+  display: none;
+  visibility: hidden;
+  appearance: none;
+}
+.con1 ul li:not(.active):hover {
+    border-radius: 5px;
+  background: #737375;
+  color: #fff;
+}
+.active {
+    border-radius: 5px;
+  background: #737375;
+  color: #fff;
+}
+.con1{
+    /* border: 1px solid; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.con1 ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    font-size: 13px;
+    color: #282828;
+}
+.con1 ul li{
+    border: none;
+    padding: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+.con1 ul li a{
+    border: none;
+    padding: 3px 6px;
+    list-style: none;
+    cursor: pointer;
+    color: #282828;
+    text-decoration: none;
+}
+.con1 ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con1 button{
+    background-color: #fff;
+    padding: 9px 0px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #000;
+    border: none;
+     cursor: pointer;
+}
+.con1 button a{
+    /* border: 1px solid; */
+    padding: 9px 20px;
+    text-decoration: none;
+    color: #000;
+}
+.con1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container2{
+    /* border: 1px solid; */
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: #f8f6f2;
+    color: #282828;
+    padding: 80px 0px 40px 0px;
+}
+.container2 img{
+    /* border: 1px solid; */
+    width: 18rem;
+}
+.container2 h2{
+    /* border: 1px solid; */
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+}
+.container2 p{
+    /* border: 1px solid; */
+    width: 56%;
+    text-align: center;
+    font-size: 14px;
+    color: #696969;
+}
+
+.container3{
+    /* border: 1px solid; */
+    display: flex;
+    padding: 50px 0px;
+    padding-left: 6rem;
+    gap: 35px;
+    justify-content: center;
+}
+.container3 img{
+    /* border: 1px solid; */
+    width: 22rem;
+    height: 25rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.con3{
+    /* border: 1px solid; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.con3a{
+    /* border: 1px solid; */
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.con3a p{
+    /* border: 1px solid; */
+    width: 85%;
+    color: #696969;
+}
+
+.container4{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1efeb;
+    color: #282828;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 50px 0px;
+    width: 75%;
+    margin: auto;
+}
+.container4 p{
+    width: 80%;
+    text-align: center;
+    padding: 15px 0px;
+    color: #696969;
+}
+.container4 button{
+    background-color: #437944;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.container4 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.container4 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container-e{
+    /* border: 1px solid; */
+    background-color: #282828;
+    color: #fff;
+    padding: 20px 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+.container9{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.con9a{
+    display: flex;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.con9a img{
+    width: 50px;
+}
+.con9b{
+    height: 10rem;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1c;
+    justify-content: space-between;
+}
+.con9b img{
+    /* border: 1px solid; */
+    width: 10rem;
+    height: 9rem;
+    border-radius: 10px;
+}
+.con9b-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 55%;
+    padding-left: 10px;
+}
+.con9b-1 p{
+    font-size: 13px;
+    width: 80%;
+    color: #d6d6d6;
+}
+.con9b-1 button{
+    width: 20%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.con9b-1 button a{
+    text-decoration: none;
+    color: #000;
+}
+.con9b-1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.con9c{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.con9c ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    font-size: 13px;
+}
+.con9c ul li a{
+    /* border: 1px solid; */
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.con9c ul li:nth-child(1){
+    /* border: 1px solid; */
+    width: 38px;
+}
+.con9c ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con9c-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.media{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 15px;
+}
+.media img{
+    width: 30px;
+    cursor: pointer;
+}
+.cnt{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cnt span{
+    font-size: 13px;
+    color:#afafaf;
+}
+.conbottom{
+    border-top: 1px solid #9d9d9d;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 22px 0px;
+    color:#afafaf;
+}
+.conbottom ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.conbottom ul li{
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+.conbottom ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1115px){
+.container{
+    /* border: 1px solid; */
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #282828;
+}
+.container1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 18rem;
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0px 20px;
+    margin-top: -2px;
+    background-color: #f1efeb
+    
+}
+.con1left{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.con1left img{
+    /* border: 1px solid; */
+    width: 40px;
+    height: 40px;
+}
+.left{
+    display: flex;
+    color: #282828;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.left a{
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.left a h4{
+    /* border: 1px solid; */
+    font-size: 14px;
+    color: #282828;
+}
+.left a span{
+    /* border: 1px solid; */
+    font-size: 10px;
+    color: #282828;
+}
+
+.con1{
+    /* border: 1px solid; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.con1 ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    font-size: 13px;
+    color: #282828;
+}
+.con1 ul li{
+    border: none;
+    padding: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+.con1 ul li a{
+    border: none;
+    padding: 3px 6px;
+    list-style: none;
+    cursor: pointer;
+    color: #282828;
+    text-decoration: none;
+}
+.con1 ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con1 button{
+    background-color: #437944;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.con1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.con1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container2{
+    /* border: 1px solid; */
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: #f8f6f2;
+    color: #282828;
+    padding: 80px 0px 40px 0px;
+}
+.container2 img{
+    /* border: 1px solid; */
+    width: 18rem;
+}
+.container2 h2{
+    /* border: 1px solid; */
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+.container2 p{
+    /* border: 1px solid; */
+    width: 56%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container3{
+    /* border: 1px solid; */
+    display: flex;
+    padding: 50px 0px;
+    padding-left: 6rem;
+    gap: 35px;
+    justify-content: center;
+}
+.container3 img{
+    /* border: 1px solid; */
+    width: 22rem;
+    height: 24rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.con3{
+    /* border: 1px solid; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.con3a{
+    /* border: 1px solid; */
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.con3a p{
+    /* border: 1px solid; */
+    width: 85%;
+}
+
+.container4{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1efeb;
+    color: #282828;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 50px 0px;
+    width: 75%;
+    margin: auto;
+}
+.container4 p{
+    width: 80%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.container4 button{
+    background-color: #437944;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.container4 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.container4 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container-e{
+    /* border: 1px solid; */
+    background-color: #282828;
+    color: #fff;
+    padding: 20px 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+.container9{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.con9a{
+    display: flex;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.con9a img{
+    width: 50px;
+}
+.con9b{
+    height: 10rem;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1c;
+    justify-content: space-between;
+}
+.con9b img{
+    /* border: 1px solid; */
+    width: 10rem;
+    height: 9rem;
+    border-radius: 10px;
+}
+.con9b-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 55%;
+    padding-left: 10px;
+}
+.con9b-1 p{
+    font-size: 13px;
+    width: 80%;
+}
+.con9b-1 button{
+    width: 30%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.con9b-1 button a{
+    text-decoration: none;
+    color: #000;
+}
+.con9b-1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.con9c{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.con9c ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    font-size: 13px;
+}
+.con9c ul li a{
+    /* border: 1px solid; */
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.con9c ul li:nth-child(1){
+    /* border: 1px solid; */
+    width: 38px;
+}
+.con9c ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con9c-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.media{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 15px;
+}
+.media img{
+    width: 30px;
+    cursor: pointer;
+}
+.cnt{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cnt span{
+    font-size: 13px;
+    color:#afafaf;
+}
+.conbottom{
+    border-top: 1px solid #9d9d9d;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 22px 0px;
+}
+.conbottom ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.conbottom ul li{
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+.conbottom ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+
+}
+
+@media screen and (max-width: 900px){
+    .container1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0px 10px;
+    margin-top: -2px;
+    background-color: #f1efeb
+    
+}
+.con1left{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.con1left img{
+    /* border: 1px solid; */
+    width: 40px;
+    height: 40px;
+}
+.left{
+    display: flex;
+    color: #282828;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.left a{
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.left a h4{
+    /* border: 1px solid; */
+    font-size: 14px;
+    color: #282828;
+}
+.left a span{
+    /* border: 1px solid; */
+    font-size: 10px;
+    color: #282828;
+}
+.con1{
+    /* border: 1px solid; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.con1 ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    font-size: 13px;
+    color: #282828;
+}
+.con1 ul li{
+    border: none;
+    padding: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+.con1 ul li a{
+    border: none;
+    padding: 3px 6px;
+    list-style: none;
+    cursor: pointer;
+    color: #282828;
+    text-decoration: none;
+}
+.con1 ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con1 button{
+    background-color: #437944;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.con1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.con1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+}
+
+@media screen and (max-width: 890px){
+.container{
+    /* border: 1px solid; */
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #282828;
+}
+.container1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0px 50px;
+    margin-top: -2px;
+    background-color: #f1efeb
+    
+}
+.con1left{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.con1left img{
+    /* border: 1px solid; */
+    width: 40px;
+    height: 40px;
+}
+.left{
+    display: flex;
+    color: #282828;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.left a{
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.left a h4{
+    /* border: 1px solid; */
+    font-size: 14px;
+    color: #282828;
+}
+.left a span{
+    /* border: 1px solid; */
+    font-size: 10px;
+    color: #282828;
+}
+.con1{
+    /* border: 1px solid; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.con1 ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    font-size: 13px;
+    color: #282828;
+}
+.con1 ul li{
+    border: none;
+    padding: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+.con1 ul li a{
+    border: none;
+    padding: 3px 6px;
+    list-style: none;
+    cursor: pointer;
+    color: #282828;
+    text-decoration: none;
+}
+.container1 ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.container1 button{
+    background-color: #437944;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.container1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.container1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container2{
+    /* border: 1px solid; */
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: #f8f6f2;
+    color: #282828;
+    padding: 80px 0px 40px 0px;
+}
+.container2 img{
+    /* border: 1px solid; */
+    width: 18rem;
+}
+.container2 h2{
+    /* border: 1px solid; */
+    padding: 10px;
+    width: 38%;
+    text-align: center;
+}
+.container2 p{
+    /* border: 1px solid; */
+    width: 56%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container3{
+    /* border: 1px solid; */
+    display: flex;
+    padding: 50px 0px;
+    padding-left: 2rem;
+    gap: 20px;
+}
+.container3 img{
+    /* border: 1px solid; */
+    width: 20rem;
+    height: 22rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.con3{
+    /* border: 1px solid; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+}
+.con3a{
+    /* border: 1px solid; */
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.con3a p{
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.container4{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1efeb;
+    color: #282828;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 20px 0px;
+    width: 75%;
+    margin: auto;
+}
+.container4 p{
+    width: 80%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.container4 button{
+    background-color: #437944;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.container4 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.container4 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container-e{
+    /* border: 1px solid; */
+    background-color: #282828;
+    color: #fff;
+    padding: 20px 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+.container9{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.con9a{
+    display: flex;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.con9a img{
+    width: 50px;
+}
+.con9b{
+    height: 10rem;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1c;
+    justify-content: space-between;
+}
+.con9b img{
+    /* border: 1px solid; */
+    width: 10rem;
+    height: 9rem;
+    border-radius: 10px;
+}
+.con9b-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 55%;
+    padding-left: 10px;
+}
+.con9b-1 p{
+    font-size: 13px;
+    width: 80%;
+}
+.con9b-1 button{
+    width: 40%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.con9b-1 button a{
+    text-decoration: none;
+    color: #000;
+}
+.con9b-1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.con9c{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.con9c ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    font-size: 13px;
+}
+.con9c ul li a{
+    /* border: 1px solid; */
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.con9c ul li:nth-child(1){
+    /* border: 1px solid; */
+    width: 38px;
+}
+.con9c ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con9c-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.media{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 15px;
+}
+.media img{
+    width: 30px;
+    cursor: pointer;
+}
+.cnt{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cnt span{
+    font-size: 13px;
+    color:#afafaf;
+}
+.conbottom{
+    border-top: 1px solid #9d9d9d;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 22px 0px;
+}
+.conbottom ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.conbottom ul li{
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+.conbottom ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+
+}
+
+@media screen and (max-width: 800px){
+.container{
+    /* border: 1px solid; */
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #282828;
+}
+.container1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0px 10px;
+    margin-top: -2px;
+    background-color: #f1efeb
+    
+}
+.con1left{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.con1left img{
+    /* border: 1px solid; */
+    width: 40px;
+    height: 40px;
+}
+.left{
+    display: flex;
+    color: #282828;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.left a{
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.left a h4{
+    /* border: 1px solid; */
+    font-size: 14px;
+    color: #282828;
+}
+.left a span{
+    /* border: 1px solid; */
+    font-size: 10px;
+    color: #282828;
+}
+.con1{
+    /* border: 1px solid; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.con1 ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    font-size: 13px;
+    color: #282828;
+}
+.con1 ul li{
+    border: none;
+    padding: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+.con1 ul li a{
+    border: none;
+    padding: 3px 6px;
+    list-style: none;
+    cursor: pointer;
+    color: #282828;
+    text-decoration: none;
+}
+.con1 ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con1 button{
+    background-color: #437944;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.con1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.con1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container2{
+    /* border: 1px solid; */
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: #f8f6f2;
+    color: #282828;
+    padding: 80px 0px 40px 0px;
+}
+.container2 img{
+    /* border: 1px solid; */
+    width: 18rem;
+}
+.container2 h2{
+    /* border: 1px solid; */
+    padding: 10px;
+    width: 42%;
+    text-align: center;
+}
+.container2 p{
+    /* border: 1px solid; */
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container3{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 5px;
+}
+.container3 img{
+    /* border: 1px solid; */
+    width: 70%;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.con3{
+    /* border: 1px solid; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+}
+.con3a{
+    /* border: 1px solid; */
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.con3a p{
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.container4{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1efeb;
+    color: #282828;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 20px 0px;
+    width: 75%;
+    margin: auto;
+}
+.container4 p{
+    width: 80%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.container4 button{
+    background-color: #437944;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.container4 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.container4 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container-e{
+    /* border: 1px solid; */
+    background-color: #282828;
+    color: #fff;
+    padding: 20px 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+.container9{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.con9a{
+    display: flex;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.con9a img{
+    width: 50px;
+}
+.con9b{
+    height: 10rem;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1c;
+    justify-content: space-between;
+}
+.con9b img{
+    /* border: 1px solid; */
+    width: 10rem;
+    height: 9rem;
+    border-radius: 10px;
+}
+.con9b-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 55%;
+    padding-left: 10px;
+}
+.con9b-1 p{
+    font-size: 13px;
+    width: 80%;
+}
+.con9b-1 button{
+    width: 40%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.con9b-1 button a{
+    text-decoration: none;
+    color: #000;
+}
+.con9b-1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.con9c{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.con9c ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    font-size: 13px;
+}
+.con9c ul li a{
+    /* border: 1px solid; */
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.con9c ul li:nth-child(1){
+    /* border: 1px solid; */
+    width: 38px;
+}
+.con9c ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con9c-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.media{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 15px;
+}
+.media img{
+    width: 30px;
+    cursor: pointer;
+}
+.cnt{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cnt span{
+    font-size: 13px;
+    color:#afafaf;
+}
+.conbottom{
+    border-top: 1px solid #9d9d9d;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 22px 0px;
+}
+.conbottom ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.conbottom ul li{
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+.conbottom ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+
+}
+
+@media screen and (max-width: 700px){
+.container{
+    /* border: 1px solid; */
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #282828;
+}
+.container1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0px 30px;
+    margin-top: -2px;
+    background-color: #f1efeb
+    
+}
+.con1left{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.con1left img{
+    /* border: 1px solid; */
+    width: 40px;
+    height: 40px;
+}
+.left{
+    display: flex;
+    color: #282828;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.left a{
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.left a h4{
+    /* border: 1px solid; */
+    font-size: 14px;
+    color: #282828;
+}
+.left a span{
+    /* border: 1px solid; */
+    font-size: 10px;
+    color: #282828;
+}
+.con1{
+    border: 2px solid #e9e8e7;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    gap: 100px;
+    transform: translateX(500px);
+}
+.con1 ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    font-size: 14px;
+    color: #282828;
+}
+.con1 ul li{
+    border: none;
+    padding: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+.con1 ul li a{
+    border: none;
+    padding: 3px 6px;
+    list-style: none;
+    cursor: pointer;
+    color: #282828;
+    text-decoration: none;
+}
+.con1 ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con1 button{
+    background-color: #437944;
+    padding: 9px 100px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.con1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.con1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.menuImg {
+    display: block;
+    width:68px;
+    height: 3px;
+    left: 36rem;
+    border-radius: 10px;
+    background: #000;
+    transition: all 0.3s ease;
+    position:sticky;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+
+  .menuImg::before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    height: 3px;
+    background: #000;
+    transform: translateY(-8px);
+  }
+
+  .menuImg::after {
+    content: "";
+    position: absolute;
+    width: 38px;
+    border-radius: 10px;
+    height: 3px;
+    transition: all 0.3s ease;
+    background: #000;
+    transform: translateY(8px);
+  }
+
+  input[type="checkbox"]:checked + label.menuImg {
+    width: 0;
+    top:35px;
+    left: 36rem;
+  }
+  input[type="checkbox"]:checked + label.menuImg::after {
+    transform: rotate(-40deg);
+    background: #000;
+  }
+  input[type="checkbox"]:checked + .menuImg::before {
+    transform: rotate(40deg);
+    background: #000;
+  }
+  input[type="checkbox"]:checked ~ .con1  {
+    transform: translateY(0);
+    right: 0;
+    margin-left: -200px;
+    margin-bottom: -565px;
+    margin-top: -2px;
+    width: 100%;
+    height: 80vh;
+  }
+
+.container2{
+    /* border: 1px solid; */
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: #f8f6f2;
+    color: #282828;
+    padding: 80px 0px 40px 0px;
+}
+.container2 img{
+    /* border: 1px solid; */
+    width: 18rem;
+}
+.container2 h2{
+    /* border: 1px solid; */
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+.container2 p{
+    /* border: 1px solid; */
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container3{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 5px;
+}
+.container3 img{
+    /* border: 1px solid; */
+    width: 70%;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.con3{
+    /* border: 1px solid; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+}
+.con3a{
+    /* border: 1px solid; */
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.con3a p{
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.container4{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1efeb;
+    color: #282828;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 20px 0px;
+    width: 75%;
+    margin: auto;
+}
+.container4 p{
+    width: 80%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.container4 button{
+    background-color: #437944;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.container4 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.container4 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container-e{
+    /* border: 1px solid; */
+    background-color: #282828;
+    color: #fff;
+    padding: 20px 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+}
+.container9{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.con9a{
+    display: flex;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.con9a img{
+    width: 50px;
+}
+.con9b{
+    /* border: 1px solid; */
+    height: 25rem;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1c1c;
+    justify-content: center;
+}
+.con9b img{
+    /* border: 1px solid; */
+    width: 25rem;
+    height: 14rem;
+    border-radius: 10px;
+}
+.con9b-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    padding-left: 10px;
+}
+.con9b-1 p{
+    font-size: 13px;
+    width: 90%;
+}
+.con9b-1 button{
+    width: 35%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.con9b-1 button a{
+    text-decoration: none;
+    color: #000;
+}
+.con9b-1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.con9c{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 10px;
+}
+.con9c ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    font-size: 13px;
+}
+.con9c ul li a{
+    /* border: 1px solid; */
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.con9c ul li:nth-child(1){
+    /* border: 1px solid; */
+    width: 38px;
+}
+.con9c ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con9c-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.media{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 15px;
+}
+.media img{
+    width: 30px;
+    cursor: pointer;
+}
+.cnt{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cnt span{
+    font-size: 13px;
+    color:#afafaf;
+}
+.conbottom{
+    border-top: 1px solid #9d9d9d;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 22px 0px;
+}
+.conbottom ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.conbottom ul li{
+    cursor: pointer;
+}
+.conbottom ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+
+}
+
+@media screen and (max-width: 580px){
+    .container1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0px 30px;
+    margin-top: -2px;
+    background-color: #f1efeb
+    
+}
+.con1left{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.con1left img{
+    /* border: 1px solid; */
+    width: 40px;
+    height: 40px;
+}
+.left{
+    display: flex;
+    color: #282828;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.left a{
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.left a h4{
+    /* border: 1px solid; */
+    font-size: 14px;
+    color: #282828;
+}
+.left a span{
+    /* border: 1px solid; */
+    font-size: 10px;
+    color: #282828;
+}
+.con1{
+    border: 2px solid #e9e8e7;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    gap: 100px;
+    transform: translateX(500px);
+}
+.con1 ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    font-size: 14px;
+    color: #282828;
+}
+.con1 ul li{
+    border: none;
+    padding: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+.con1 ul li a{
+    border: none;
+    padding: 3px 6px;
+    list-style: none;
+    cursor: pointer;
+    color: #282828;
+    text-decoration: none;
+}
+.con1 ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con1 button{
+    background-color: #437944;
+    padding: 9px 100px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.con1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.con1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.menuImg {
+    display: block;
+    width: 38px;
+    height: 3px;
+    left: 26rem;
+    border-radius: 10px;
+    background: #000;
+    transition: all 0.3s ease;
+    position:sticky;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+
+  .menuImg::before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    height: 3px;
+    background: #000;
+    transform: translateY(-8px);
+  }
+
+  .menuImg::after {
+    content: "";
+    position: absolute;
+    width: 38px;
+    border-radius: 10px;
+    height: 3px;
+    transition: all 0.3s ease;
+    background: #000;
+    transform: translateY(8px);
+  }
+
+  input[type="checkbox"]:checked + label.menuImg {
+    width: 0;
+    top:35px;
+    left: 26rem;
+  }
+  input[type="checkbox"]:checked + label.menuImg::after {
+    transform: rotate(-40deg);
+    background: #000;
+  }
+  input[type="checkbox"]:checked + .menuImg::before {
+    transform: rotate(40deg);
+    background: #000;
+  }
+  input[type="checkbox"]:checked ~ .con1  {
+    transform: translateY(0);
+    right: 0;
+    margin-left: -200px;
+    margin-bottom: -565px;
+    width: 100%;
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 550px){
+.container{
+    /* border: 1px solid; */
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #282828;
+}
+.container1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0px 30px;
+    margin-top: -2px;
+    background-color: #f1efeb
+    
+}
+.con1left{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.con1left img{
+    /* border: 1px solid; */
+    width: 40px;
+    height: 40px;
+}
+.left{
+    display: flex;
+    color: #282828;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.left a{
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.left a h4{
+    /* border: 1px solid; */
+    font-size: 14px;
+    color: #282828;
+}
+.left a span{
+    /* border: 1px solid; */
+    font-size: 10px;
+    color: #282828;
+}
+.con1{
+    border: 2px solid #e9e8e7;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    gap: 100px;
+    transform: translateX(500px);
+}
+.con1 ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    font-size: 14px;
+    color: #282828;
+}
+.con1 ul li{
+    border: none;
+    padding: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+.con1 ul li a{
+    border: none;
+    padding: 3px 6px;
+    list-style: none;
+    cursor: pointer;
+    color: #282828;
+    text-decoration: none;
+}
+.con1 ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con1 button{
+    background-color: #437944;
+    padding: 9px 100px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.con1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.con1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container2{
+    /* border: 1px solid; */
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: #f8f6f2;
+    color: #282828;
+    padding: 80px 0px 40px 0px;
+}
+.container2 img{
+    /* border: 1px solid; */
+    width: 15rem;
+}
+.container2 h2{
+    /* border: 1px solid; */
+    padding: 10px;
+    width: 62%;
+    text-align: center;
+}
+.container2 p{
+    /* border: 1px solid; */
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container3{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 5px;
+}
+.container3 img{
+    /* border: 1px solid; */
+    width: 85%;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.con3{
+    /* border: 1px solid; */
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+    font-size: 14px;
+}
+.con3a{
+    /* border: 1px solid; */
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.con3a p{
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.container4{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1efeb;
+    color: #282828;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 20px 0px;
+    width: 90%;
+    margin: auto;
+}
+.container4 p{
+    width: 90%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.container4 button{
+    background-color: #437944;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.container4 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.container4 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container-e{
+    /* border: 1px solid; */
+    background-color: #282828;
+    color: #fff;
+    padding: 20px 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+}
+.container9{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.con9a{
+    display: flex;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.con9a img{
+    width: 50px;
+}
+.con9b{
+    /* border: 1px solid; */
+    height: 25rem;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1c1c;
+    justify-content: center;
+}
+.con9b img{
+    /* border: 1px solid; */
+    width: 25rem;
+    height: 14rem;
+    border-radius: 10px;
+}
+.con9b-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    padding-left: 10px;
+}
+.con9b-1 p{
+    font-size: 13px;
+    width: 90%;
+}
+.con9b-1 button{
+    width: 35%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.con9b-1 button a{
+    text-decoration: none;
+    color: #000;
+}
+.con9b-1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.con9c{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 10px;
+}
+.con9c ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    font-size: 13px;
+}
+.con9c ul li a{
+    /* border: 1px solid; */
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.con9c ul li:nth-child(1){
+    /* border: 1px solid; */
+    width: 38px;
+}
+.con9c ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con9c-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.media{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 15px;
+}
+.media img{
+    width: 30px;
+    cursor: pointer;
+}
+.cnt{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cnt span{
+    font-size: 13px;
+    color:#afafaf;
+}
+.conbottom{
+    border-top: 1px solid #9d9d9d;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 22px 0px;
+}
+.conbottom ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.conbottom ul li{
+    cursor: pointer;
+}
+.conbottom ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+
+}
+
+@media screen and (max-width: 490px){
+.container{
+    /* border: 1px solid; */
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #282828;
+}
+.container1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0px 10px;
+    margin-top: -2px;
+    background-color: #f1efeb
+    
+}
+.con1left{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.con1left img{
+    /* border: 1px solid; */
+    width: 40px;
+    height: 40px;
+}
+.left{
+    display: flex;
+    color: #282828;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.left a{
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.left a h4{
+    /* border: 1px solid; */
+    font-size: 14px;
+    color: #282828;
+}
+.left a span{
+    /* border: 1px solid; */
+    font-size: 10px;
+    color: #282828;
+}
+.con1{
+    border: 2px solid #e9e8e7;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    gap: 100px;
+    transform: translateX(500px);
+}
+.con1 ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    font-size: 14px;
+    color: #282828;
+}
+.con1 ul li{
+    border: none;
+    padding: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+.con1 ul li a{
+    border: none;
+    padding: 3px 6px;
+    list-style: none;
+    cursor: pointer;
+    color: #282828;
+    text-decoration: none;
+}
+.con1 ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con1 button{
+    background-color: #437944;
+    padding: 9px 100px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.con1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.con1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.menuImg {
+    display: block;
+    width: 0px;
+    height: 3px;
+    left: 20rem;
+    border-radius: 10px;
+    background: #000;
+    transition: all 0.3s ease;
+    position:sticky;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+
+  .menuImg::before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    height: 3px;
+    background: #000;
+    transform: translateY(-8px);
+  }
+
+  .menuImg::after {
+    content: "";
+    position: absolute;
+    width: 38px;
+    border-radius: 10px;
+    height: 3px;
+    transition: all 0.3s ease;
+    background: #000;
+    transform: translateY(8px);
+  }
+
+  input[type="checkbox"]:checked + label.menuImg {
+    width: 0;
+    top:35px;
+    left: 20rem;
+  }
+  input[type="checkbox"]:checked + label.menuImg::after {
+    transform: rotate(-40deg);
+    background: #000;
+  }
+  input[type="checkbox"]:checked + .menuImg::before {
+    transform: rotate(40deg);
+    background: #000;
+  }
+  input[type="checkbox"]:checked ~ .con1  {
+    transform: translateY(0);
+    right: 0;
+    margin-left: -210px;
+    margin-bottom: -565px;
+    margin-top: -2px;
+    width: 100%;
+    height: 80vh;
+  }
+
+.container2{
+    /* border: 1px solid; */
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: #f8f6f2;
+    color: #282828;
+    padding: 80px 0px 40px 0px;
+}
+.container2 img{
+    /* border: 1px solid; */
+    width: 15rem;
+}
+.container2 h2{
+    /* border: 1px solid; */
+    padding: 10px;
+    width: 76%;
+    text-align: center;
+}
+.container2 p{
+    /* border: 1px solid; */
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container3{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 5px;
+}
+.container3 img{
+    /* border: 1px solid; */
+    width: 85%;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.con3{
+    /* border: 1px solid; */
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+    font-size: 14px;
+}
+.con3a{
+    /* border: 1px solid; */
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.con3a p{
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.container4{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1efeb;
+    color: #282828;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 20px 0px;
+    width: 90%;
+    margin: auto;
+}
+.container4 p{
+    width: 90%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.container4 button{
+    background-color: #437944;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+     cursor: pointer;
+}
+.container4 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.container4 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.container-e{
+    /* border: 1px solid; */
+    background-color: #282828;
+    color: #fff;
+    padding: 20px 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+}
+.container9{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.con9a{
+    display: flex;
+    align-items: center;
+    font-family: "Covered By Your Grace", cursive;
+}
+.con9a img{
+    width: 50px;
+}
+.con9b{
+    /* border: 1px solid; */
+    height: 22rem;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1c1c;
+    justify-content: center;
+}
+.con9b img{
+    /* border: 1px solid; */
+    width: 15rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+.con9b-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    padding-left: 10px;
+}
+.con9b-1 p{
+    font-size: 13px;
+    width: 90%;
+}
+.con9b-1 button{
+    width: 35%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.con9b-1 button a{
+    text-decoration: none;
+    color: #000;
+}
+.con9b-1 button:hover{
+    background-color: #2c3e13;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.con9c{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 10px;
+}
+.con9c ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    font-size: 13px;
+}
+.con9c ul li a{
+    /* border: 1px solid; */
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.con9c ul li:nth-child(1){
+    /* border: 1px solid; */
+    width: 38px;
+}
+.con9c ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+.con9c-1{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.media{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 15px;
+}
+.media img{
+    width: 30px;
+    cursor: pointer;
+}
+.cnt{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cnt span{
+    font-size: 13px;
+    color:#afafaf;
+}
+.conbottom{
+    border-top: 1px solid #9d9d9d;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 13px;
+    padding: 15px 0px;
+}
+.conbottom ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.conbottom ul li{
+    cursor: pointer;
+}
+.conbottom ul li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease;
+}
+}
